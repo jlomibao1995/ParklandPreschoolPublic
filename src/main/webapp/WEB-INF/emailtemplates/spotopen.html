@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Class Spot Open</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">WebFont.load({google: {families: ["Merriweather:300,300italic,400,400italic,700,700italic,900,900italic", "Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic", "Comic Neue:300,300italic,regular,italic,700,700italic"]}});</script>
+    </head>
+    <body>
+        <h1>Class Spot Open</h1>
+        <div>
+            <p style="font-family: Merriweather, serif;font-size: 20px;">
+                Hi {{parent}},<br>
+                Thank you for your patience. There is an available place for {{child}} in the following class:
+            </p>
+            <table style="font-family: Merriweather, Roboto, sans-serif; border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th style="padding-top: 12px; padding-bottom: 12px; text-align: left; background-color: #1679c4; color: white;">Class</th>
+                    <th style="padding-top: 12px; padding-bottom: 12px; text-align: left; background-color: #1679c4; color: white;">Dates</th>
+                    <th style="padding-top: 12px; padding-bottom: 12px; text-align: left; background-color: #1679c4; color: white;">Time</th>
+                    <th style="padding-top: 12px; padding-bottom: 12px; text-align: left; background-color: #1679c4; color: white;">Days</th> 
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">{{class}}</td>
+                    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">{{dates}}</td>
+                    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">{{time}}</td>
+                    <td style="border: 1px solid #ddd; padding: 8px; text-align: left;">{{days}}</td>
+                </tr>
+            </table><br>
+            <p style="font-family: Merriweather, serif;font-size: 20px;">A registration payment of $45.00 is needed to reserve your place. Please use the following link to pay your registration:<br>
+                <a href="www.parklandpreschool.com/managechild">www.parklandpreschool.com/managechild</a><br>
+                We look forward to seeing {{child}} in class.<br>
+                Thanks,<br>
+                Parkland Preschool Team.
+            </p>
+        </div>
+    </body>
+</html>
